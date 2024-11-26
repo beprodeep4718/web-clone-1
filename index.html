@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.16/dist/lenis.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .aspect-square {
+        grid-row-start: calc(var(--r) + 1);
+        grid-column-start: calc(var(--c) + 1);
+        grid-row-end: calc(var(--r) + 2);
+        grid-column-end: calc(var(--c) + 2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-full relative bg-[#846C64]">
+      <div
+        class="fixed z-10 top-0 left-0 w-full h-full flex flex-col justify-center items-center"
+      >
+        <h1 class="text-7xl font-bold uppercase">Beprodeep Das</h1>
+        <p class="text-2xl">Web Developer</p>
+      </div>
+      <div
+        class="grid grid-cols-8 grid-rows-20 w-full min-h-screen overflow-hidden"
+      >
+        <!-- Row 1 -->
+        <div class="aspect-square w-full h-full" style="--r: 0; --c: 2">
+          <img
+            src="https://tympanus.net/Development/ScrollAnimationsGrid/6.56a5d53b.jpg"
+            class="w-full h-full object-cover"
+            alt="Image 1"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 0; --c: 5">
+          <img
+            src="https://tympanus.net/Development/ScrollAnimationsGrid/20.cae33766.jpg"
+            class="w-full h-full object-cover"
+            alt="Image 1"
+          />
+        </div>
+        <!-- Row 2 -->
+        <div class="aspect-square w-full h-full" style="--r: 1; --c: 1">
+          <img
+            src="https://tympanus.net/Development/ScrollAnimationsGrid/2.07ca36b5.jpg"
+            class="w-full h-full object-cover"
+            alt="Image 2"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 1; --c: 7">
+          <img
+            src="https://tympanus.net/Development/ScrollAnimationsGrid/3.f6f48295.jpg"
+            class="w-full h-full object-cover"
+            alt="Image 2"
+          />
+        </div>
+        <!-- Row 3 -->
+        <div class="aspect-square w-full h-full" style="--r: 2; --c: 3">
+          <img
+            src="https://tympanus.net/Development/ScrollAnimationsGrid/4.516b9c03.jpg"
+            class="w-full h-full object-cover"
+            alt="Image 3"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 2; --c: 6">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=3"
+            class="w-full h-full object-cover"
+            alt="Image 3"
+          />
+        </div>
+        <!-- Row 4 -->
+        <div class="aspect-square w-full h-full" style="--r: 3; --c: 0">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=4"
+            class="w-full h-full object-cover"
+            alt="Image 4"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 3; --c: 4">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=4"
+            class="w-full h-full object-cover"
+            alt="Image 4"
+          />
+        </div>
+        <!-- Row 5 -->
+        <div class="aspect-square w-full h-full" style="--r: 4; --c: 2">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=5"
+            class="w-full h-full object-cover"
+            alt="Image 5"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 4; --c: 7">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=5"
+            class="w-full h-full object-cover"
+            alt="Image 5"
+          />
+        </div>
+        <!-- Row 6 -->
+        <div class="aspect-square w-full h-full" style="--r: 5; --c: 1">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=6"
+            class="w-full h-full object-cover"
+            alt="Image 6"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 5; --c: 5">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=6"
+            class="w-full h-full object-cover"
+            alt="Image 6"
+          />
+        </div>
+        <!-- Row 7 -->
+        <div class="aspect-square w-full h-full" style="--r: 6; --c: 3">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=7"
+            class="w-full h-full object-cover"
+            alt="Image 7"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 6; --c: 6">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=7"
+            class="w-full h-full object-cover"
+            alt="Image 7"
+          />
+        </div>
+        <!-- Row 8 -->
+        <div class="aspect-square w-full h-full" style="--r: 7; --c: 0">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=8"
+            class="w-full h-full object-cover"
+            alt="Image 8"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 7; --c: 4">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=8"
+            class="w-full h-full object-cover"
+            alt="Image 8"
+          />
+        </div>
+        <!-- Row 9 -->
+        <div class="aspect-square w-full h-full" style="--r: 8; --c: 2">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=9"
+            class="w-full h-full object-cover"
+            alt="Image 9"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 8; --c: 7">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=9"
+            class="w-full h-full object-cover"
+            alt="Image 9"
+          />
+        </div>
+        <!-- Row 10 -->
+        <div class="aspect-square w-full h-full" style="--r: 9; --c: 1">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=10"
+            class="w-full h-full object-cover"
+            alt="Image 10"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 9; --c: 5">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=10"
+            class="w-full h-full object-cover"
+            alt="Image 10"
+          />
+        </div>
+        <!-- Row 11 -->
+        <div class="aspect-square w-full h-full" style="--r: 10; --c: 3">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=11"
+            class="w-full h-full object-cover"
+            alt="Image 11"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 10; --c: 6">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=11"
+            class="w-full h-full object-cover"
+            alt="Image 11"
+          />
+        </div>
+        <!-- Row 12 -->
+        <div class="aspect-square w-full h-full" style="--r: 11; --c: 0">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=12"
+            class="w-full h-full object-cover"
+            alt="Image 12"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 11; --c: 4">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=12"
+            class="w-full h-full object-cover"
+            alt="Image 12"
+          />
+        </div>
+        <!-- Row 13 -->
+        <div class="aspect-square w-full h-full" style="--r: 12; --c: 2">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=13"
+            class="w-full h-full object-cover"
+            alt="Image 13"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 12; --c: 7">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=13"
+            class="w-full h-full object-cover"
+            alt="Image 13"
+          />
+        </div>
+        <!-- Row 14 -->
+        <div class="aspect-square w-full h-full" style="--r: 13; --c: 1">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=14"
+            class="w-full h-full object-cover"
+            alt="Image 14"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 13; --c: 5">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=14"
+            class="w-full h-full object-cover"
+            alt="Image 14"
+          />
+        </div>
+        <!-- Row 15 -->
+        <div class="aspect-square w-full h-full" style="--r: 14; --c: 3">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=15"
+            class="w-full h-full object-cover"
+            alt="Image 15"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 14; --c: 6">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=15"
+            class="w-full h-full object-cover"
+            alt="Image 15"
+          />
+        </div>
+        <!-- Row 16 -->
+        <div class="aspect-square w-full h-full" style="--r: 15; --c: 0">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=16"
+            class="w-full h-full object-cover"
+            alt="Image 16"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 15; --c: 4">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=16"
+            class="w-full h-full object-cover"
+            alt="Image 16"
+          />
+        </div>
+        <!-- Row 17 -->
+        <div class="aspect-square w-full h-full" style="--r: 16; --c: 2">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=17"
+            class="w-full h-full object-cover"
+            alt="Image 17"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 16; --c: 7">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=17"
+            class="w-full h-full object-cover"
+            alt="Image 17"
+          />
+        </div>
+        <!-- Row 18 -->
+        <div class="aspect-square w-full h-full" style="--r: 17; --c: 1">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=18"
+            class="w-full h-full object-cover"
+            alt="Image 18"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 17; --c: 5">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=18"
+            class="w-full h-full object-cover"
+            alt="Image 18"
+          />
+        </div>
+        <!-- Row 19 -->
+        <div class="aspect-square w-full h-full" style="--r: 18; --c: 3">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=19"
+            class="w-full h-full object-cover"
+            alt="Image 19"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 18; --c: 6">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=19"
+            class="w-full h-full object-cover"
+            alt="Image 19"
+          />
+        </div>
+        <!-- Row 20 -->
+        <div class="aspect-square w-full h-full" style="--r: 19; --c: 0">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=20"
+            class="w-full h-full object-cover"
+            alt="Image 20"
+          />
+        </div>
+        <div class="aspect-square w-full h-full" style="--r: 19; --c: 4">
+          <img
+            src="https://source.unsplash.com/random/800x800?sig=20"
+            class="w-full h-full object-cover"
+            alt="Image 20"
+          />
+        </div>
+      </div>
+      <div class="w-full h-screen relative z-50">
+        <div
+          class="w-full h-full bg-[#D1D1D1] flex flex-col justify-center items-center"
+        >
+          <h1 class="text-3xl w-1/2 mx-auto tracking-wide leading-1">
+            From the dawn of civilisation onwards crowds have always undergone
+            the influence of illusions. It is to the creators of illusions that
+            they have raised more temples, statues, and altars than to any other
+            class of men.
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
